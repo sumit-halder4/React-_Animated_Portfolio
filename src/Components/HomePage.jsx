@@ -1,9 +1,5 @@
-import React, { useRef } from "react";
-import pdf from "../PDF/Resume.pdf";
 import heroImg from "../assets/hero/hero.avif";
-import typed from "typed.js";
-import { useEffect } from "react";
-import { string } from "i/lib/util";
+import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 
 const HomePage = () => {
@@ -28,14 +24,10 @@ const HomePage = () => {
   return (
     <>
       <div className="container home" id="home">
-        <div
-          className="left"
-          data-aos="fade-up-right"
-          data-aos-duration="1000"
-        >
+        <div className="left" data-aos="fade-up-right" data-aos-duration="1000">
           <h1 ref={typedRef}></h1>
           <a
-            href={pdf}
+            href="/pdf/resume.pdf"
             download="Resume.pdf"
             className="btn btn-outline-warning my-3"
           >
