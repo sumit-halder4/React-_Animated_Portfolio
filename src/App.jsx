@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import Navbar from "./Components/Navbar";
 import HomePage from "./Components/HomePage";
-import Experience from "./Components/Experience";
 import Skils from "./Components/Skils";
 import Project from "./Components/Project";
 import Contact from "./Components/Contact";
@@ -18,7 +17,6 @@ Aos.init();
         <Navbar />
         <div className="contener">
           <HomePage/>
-          <Experience/>
           <Skils/>
           <Project/>
           <Contact/>

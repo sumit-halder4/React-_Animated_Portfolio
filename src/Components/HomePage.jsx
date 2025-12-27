@@ -27,8 +27,8 @@ const HomePage = () => {
         <div className="left" data-aos="fade-up-right" data-aos-duration="1000">
           <h1 ref={typedRef}></h1>
           <a
-            href="/pdf/resume.pdf"
-            download="Resume.pdf"
+            href="/pdf/Sumit Halder - Resume.pdf"
+            download="Sumit Halder - Resume.pdf"
             className="btn btn-outline-warning my-3"
           >
             Download Resume
